@@ -1,0 +1,22 @@
+.one .two {
+    width: 100%;
+}
+
+.sketchContainer {
+    display: grid;
+    max-width: 500px;
+    width: 500px;
+    height: 500px;
+    border: solid black 1px;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cells {
+    border: solid black 1px;
+}
