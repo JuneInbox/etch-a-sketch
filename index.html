@@ -12,7 +12,10 @@
     <div class="page">
         <h1>Etch a sketch!</h1>
         <div class="sketchContainer" id="container"></div>
-        <input type="number" min="1" max="64" id="inputvalue">
+        <div class="inputcontainer">
+        <input type="range" min="1" max="64" id="inputvalue" value="1">
+        <span id="number"></span>
+        </div>
         <button id="clear">Clear</button>
     </div>
     <script src="script.js"></script>
